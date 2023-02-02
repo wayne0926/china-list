@@ -32,5 +32,5 @@ jobs:
         git config --global user.email wayne0926@foxmail.com
         git config --global user.name wayne0926
         git add .
-        git commit -m "update" -a
-        git push --quiet "https://${{ secrets.ACCESS_TOKEN }}@github.com/wayne0926/china-list" master:master
+        git commit -m "update"
+        git push --quiet "https://${{ secrets.ACCESS_TOKEN }}@github.com/wayne0926/china-list" main:main
