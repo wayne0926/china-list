@@ -35,7 +35,4 @@ jobs:
         git commit -m "update" -a
     - name: Commit report
       run: |
-          git config --global user.name 'wayne0926'
-          git config --global user.email 'wayne0926@foxmail.com'
-          git commit -m "Automated report"
           git push
