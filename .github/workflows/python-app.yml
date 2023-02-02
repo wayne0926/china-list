@@ -15,18 +15,18 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: 3.7
-		
+
     - name: Update paper list
       run: |
         python list.py
-		
+
     - name: commit
       run: |
         git config --global user.email wayne0926@foxmail.com
         git config --global user.name wayne0926
         git add .
         git commit -m "update" -a
-		
+
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
