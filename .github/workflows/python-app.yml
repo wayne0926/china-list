@@ -33,6 +33,4 @@ jobs:
         git config --global user.name wayne0926
         git add .
         git commit -m "update" -a
-    - name: Commit report
-      run: |
-          git push
+        git push
