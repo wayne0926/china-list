@@ -9,7 +9,7 @@ search_text = "server=/"
 s2 = '/114.114.114.114'
 
 # 创建一个变量并存储我们要添加的文本
-replace_text = "a"
+replace_text = "b"
 r2 = ''
 
 # 使用 open() 函数以只读模式打开我们的文本文件
