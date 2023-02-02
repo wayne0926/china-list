@@ -33,7 +33,9 @@ jobs:
         git config --global user.name wayne0926
         git add .
         git commit -m "update" -a
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.TOKEN }}
+    - name: Commit report
+      run: |
+          git config --global user.name 'wayne0926'
+          git config --global user.email 'wayne0926@foxmail.com'
+          git commit -am "Automated report"
+          git push
